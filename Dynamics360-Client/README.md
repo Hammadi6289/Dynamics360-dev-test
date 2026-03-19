@@ -15,11 +15,11 @@ Layout
 1. A top navigation bar containing the site logo and links to “Home,” “Events,” and “Contact."
 2. A hero section with a short heading:
 
-Discover Events Near You
+Discover Events Near You.
 
 1. A section titled “Featured Events” that displays 3–5 sample events.
 
-Each Event Card Should Include
+Each Event Card Should Include.
 
 1. Event name
 2. Date and time
