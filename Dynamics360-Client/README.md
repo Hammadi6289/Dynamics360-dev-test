@@ -4,7 +4,7 @@
 
 ### To Run
 
-Open Terminal => npm run dev
+Open Terminal => git clone => npm install => npm run dev
 
 ### Live Link
 
