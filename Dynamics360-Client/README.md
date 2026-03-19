@@ -6,6 +6,10 @@
 
 Open Terminal => npm run dev
 
+### Live Link
+
+https://dynamics360-dev-test.vercel.app/
+
 ### Main task
 
 Requirements
