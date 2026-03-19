@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #37145a;
+  --color-primary-light: #7332aa;
+}
+
+.button-tertiary {
+  background-color: var(--color-primary-light);
+  min-width: 172px;
+  border-radius: 2px;
+  height: 52px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  align-content: space-evenly;
+}
+
+.button-tertiary:hover {
+  background-color: var(--color-primary);
+  color: white;
+}

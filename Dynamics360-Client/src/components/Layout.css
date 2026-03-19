@@ -1,0 +1,88 @@
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar Styles */
+.navbar-dynamics-v2026 {
+  background: var(--color-primary);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.nav-logo-dynamics {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.Dynamics360-dummy-logo-img {
+  height: 40px;
+  width: auto;
+}
+
+.Dynamics360-dummy-logo-text {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-navigation-nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 0;
+  position: relative;
+}
+
+/* Main Content */
+.main-content-container {
+  flex: 1;
+  background: #f5f7fa;
+}
+
+/* Responsive Navbar using burger menu will take time.*/
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-menu {
+    gap: 20px;
+  }
+
+  .Dynamics360-dummy-logo-text {
+    font-size: 1.1rem;
+  }
+}
